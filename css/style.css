@@ -63,15 +63,15 @@ header .slide a {
   border: 0;
   color: #ff9e9c;
   cursor: pointer;
+  text-decoration: none;
+  /*&:hover{
+          text-decoration: none;
+          font-size: 65px;
+        }*/
 }
 
 header .slide a:focus {
   outline: 0;
-}
-
-header .slide a:hover {
-  text-decoration: none;
-  font-size: 65px;
 }
 
 header .slide .prev {
@@ -138,13 +138,16 @@ header .slide .next {
 
 @media only screen and (max-width: 390px) {
   header .slide {
-    max-width: 250px;
+    max-width: 270px;
   }
   header .slide a {
     top: 30%;
   }
+  header .slide .prev {
+    margin-left: -50px;
+  }
   header .slide .next {
-    margin-left: 250px;
+    margin-left: 260px;
   }
 }
 
