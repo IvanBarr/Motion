@@ -141,13 +141,13 @@ header .slide .next {
     max-width: 270px;
   }
   header .slide a {
-    top: 30%;
+    top: 35%;
   }
   header .slide .prev {
-    margin-left: -50px;
+    margin-left: -49px;
   }
   header .slide .next {
-    margin-left: 260px;
+    margin-left: 258px;
   }
 }
 
