@@ -1,2 +1,2 @@
 # Motion
-View website live https://ivanbarr.github.io/kape/
+View website live https://ivanbarr.github.io/Motion/
