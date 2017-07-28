@@ -1,0 +1,391 @@
+.navbar-default {
+  background-color: #f56262;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0; }
+  .navbar-default .logo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 100px; }
+  .navbar-default .navbar-nav {
+    padding-top: 5px;
+    padding-bottom: 5px; }
+    .navbar-default .navbar-nav li a {
+      color: white; }
+      .navbar-default .navbar-nav li a:hover {
+        background-color: #232324;
+        color: white;
+        border-radius: 2px; }
+
+.navbar-toggle {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+@media only screen and (max-width: 768px) {
+  .navbar-default .logo {
+    padding-left: 25px;
+    max-width: 135px; }
+  .navbar-toggle {
+    margin-top: 13px;
+    margin-bottom: 13px; } }
+
+header {
+  background-color: #eb4f4e;
+  padding-top: 105px;
+  border: 0;
+  padding-bottom: 20px; }
+  header .carousel-inner .item {
+    width: 100%;
+    height: 45vw;
+    background-size: cover;
+    background-position: center center; }
+  header .carousel-control {
+    background: transparent;
+    background-image: none !important;
+    text-shadow: none;
+    opacity: 1; }
+  header .glyphicon {
+    color: red; }
+
+@media only screen and (max-width: 768px) {
+  .carousel-inner .item {
+    height: 80vw; } }
+
+.smart-creative {
+  background-color: #232324;
+  color: white; }
+  .smart-creative .title {
+    text-align: center;
+    padding-top: 10px; }
+    .smart-creative .title h2 {
+      font-size: 40px;
+      letter-spacing: 10px; }
+    .smart-creative .title p {
+      color: #eb4f4e; }
+  .smart-creative .circles {
+    padding-top: 25px;
+    opacity: 0;
+    -webkit-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s; }
+    .smart-creative .circles h4, .smart-creative .circles p {
+      text-align: center; }
+    .smart-creative .circles p {
+      color: #eb4f4e; }
+    .smart-creative .circles .css-for-circle, .smart-creative .circles .circle1, .smart-creative .circles .circle2, .smart-creative .circles .circle3 {
+      height: 100px;
+      width: 100px;
+      background-color: #eb4f4e;
+      border-radius: 50px;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin: 0 auto; }
+    .smart-creative .circles .circle1 {
+      background-image: url("../imgs/multi.png"); }
+    .smart-creative .circles .circle2 {
+      background-image: url("../imgs/flat.png"); }
+    .smart-creative .circles .circle3 {
+      background-image: url("../imgs/creative.png"); }
+
+.team {
+  background-color: #6cc372;
+  padding-bottom: 30px; }
+  .team .team-title {
+    padding: 40px 0; }
+    .team .team-title h2 {
+      color: white;
+      font-size: 40px;
+      letter-spacing: 10px; }
+    .team .team-title h2, .team .team-title p {
+      text-align: center; }
+  .team .profile-wrapper .profiles {
+    width: 226px;
+    height: 341px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 0 auto;
+    position: relative;
+    -webkit-transition: all .7s;
+    -o-transition: all .7s;
+    transition: all .7s; }
+    .team .profile-wrapper .profiles .desc h5 {
+      color: #6cc372;
+      font-size: 20px; }
+    .team .profile-wrapper .profiles .desc p {
+      color: #eb4f4e;
+      font-size: 15px; }
+    .team .profile-wrapper .profiles .pic-holder {
+      max-width: 164px;
+      height: 164px;
+      border-radius: 82px;
+      background-color: #6cc372;
+      margin: 0 auto;
+      position: relative;
+      top: 25px;
+      box-shadow: inset 3px 3px 6px -2px #48804B;
+      -moz-box-shadow: inset 3px 3px 6px -2px #48804B;
+      -webkit-box-shadow: inset 3px 3px 6px -2px #48804B;
+      -o-box-shadow: inset 3px 3px 6px -2px #48804B;
+      background-repeat: no-repeat;
+      background-size: 90%;
+      background-position: center; }
+    .team .profile-wrapper .profiles .pic1 {
+      background-image: url("../imgs/mahmoud.png"); }
+    .team .profile-wrapper .profiles .pic2 {
+      background-image: url("../imgs/abd.png"); }
+    .team .profile-wrapper .profiles .pic3 {
+      background-image: url("../imgs/mostafa.png"); }
+    .team .profile-wrapper .profiles .pic4 {
+      background-image: url("../imgs/ahmed.png"); }
+    .team .profile-wrapper .profiles .desc {
+      padding: 30px 0 20px 0; }
+      .team .profile-wrapper .profiles .desc h5, .team .profile-wrapper .profiles .desc p {
+        text-align: center; }
+    .team .profile-wrapper .profiles .twitter-button {
+      max-width: 180px;
+      height: 43px;
+      background-color: #6cc372;
+      margin: 0 auto;
+      border-radius: 2px;
+      padding: 5px 0 5px 10px;
+      cursor: pointer; }
+      .team .profile-wrapper .profiles .twitter-button span i {
+        padding-left: 25px;
+        font-size: 30px;
+        font-style: normal; }
+    .team .profile-wrapper .profiles .fa-twitter {
+      font-size: 35px;
+      color: white; }
+
+@media only screen and (max-width: 992px) {
+  .team .profile-wrapper .profiles {
+    max-width: 100%;
+    margin-top: 30px; }
+    .team .profile-wrapper .profiles .pic-holder {
+      max-width: 164px;
+      height: 164px;
+      border-radius: 82px; } }
+
+.elegant {
+  background-color: #f0f0f0; }
+  .elegant .elegant-desc {
+    padding: 35px 0; }
+    .elegant .elegant-desc h2, .elegant .elegant-desc p {
+      text-align: center; }
+  .elegant .pics-wrapper .pic {
+    -webkit-transition: all .7s;
+    -o-transition: all .7s;
+    transition: all .7s; }
+    .elegant .pics-wrapper .pic p {
+      text-align: center; }
+    .elegant .pics-wrapper .pic img {
+      display: block;
+      margin: 0 auto; }
+  .elegant .boxes-wrapper {
+    padding-top: 80px; }
+    .elegant .boxes-wrapper .boxes {
+      padding-top: 29px; }
+      .elegant .boxes-wrapper .boxes .content {
+        text-align: center;
+        max-width: 300px;
+        height: 111px;
+        background-color: white;
+        border: 1px solid #e9e9e9;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        margin: 0 auto; }
+        .elegant .boxes-wrapper .boxes .content h3 {
+          font-size: 40px;
+          color: gray; }
+        .elegant .boxes-wrapper .boxes .content p {
+          font-size: 20px;
+          color: #eb4f4e; }
+        .elegant .boxes-wrapper .boxes .content .middle {
+          color: #eb4f4e; }
+        .elegant .boxes-wrapper .boxes .content .middle2 {
+          color: gray; }
+      .elegant .boxes-wrapper .boxes .middle-box2 {
+        height: 140px; }
+    .elegant .boxes-wrapper .middle-box {
+      padding-top: 0; }
+
+.elegant2 .list .list-group {
+  max-width: 300px;
+  margin: 0 auto; }
+  .elegant2 .list .list-group .settings-icon:first-child:before {
+    font-family: FontAwesome;
+    content: '\f013';
+    position: relative;
+    top: -28px;
+    left: 50px;
+    color: #eb4f4e;
+    font-size: 25px; }
+  .elegant2 .list .list-group li {
+    text-align: center;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: #f0f0f0;
+    padding: 10px 15px;
+    list-style-type: none; }
+  .elegant2 .list .list-group .price {
+    color: white;
+    background-color: #616161;
+    font-size: 50px; }
+    .elegant2 .list .list-group .price i {
+      font-style: normal;
+      font-size: 20px;
+      background-color: white;
+      color: #616161;
+      padding: 2px 10px;
+      border-radius: 2px;
+      float: right;
+      margin-top: 20px;
+      cursor: pointer; }
+    .elegant2 .list .list-group .price span {
+      font-size: 30px; }
+    .elegant2 .list .list-group .price .fa-usd {
+      position: relative;
+      bottom: 10px; }
+  .elegant2 .list .list-group .price-middle {
+    background-color: #eb4f4e; }
+
+.bottom-text p {
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 20px;
+  color: #eb4f4e;
+  padding: 30px 30px;
+  margin-bottom: 0; }
+  .bottom-text p a {
+    color: #eb4f4e;
+    text-decoration: none; }
+    .bottom-text p a:visited {
+      color: #eb4f4e; }
+
+.mobile-version {
+  display: none; }
+
+@media only screen and (max-width: 991px) {
+  .desktop-version {
+    display: none; }
+  .mobile-version {
+    padding-top: 50px;
+    display: block; }
+    .mobile-version .boxes-wrapper .boxes .content {
+      max-width: 400px;
+      text-align: center;
+      border: 1px solid #f0f0f0;
+      border-radius: 5px;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      margin: 0 auto; }
+      .mobile-version .boxes-wrapper .boxes .content h3 {
+        font-size: 40px;
+        color: gray; }
+      .mobile-version .boxes-wrapper .boxes .content p {
+        display: block;
+        font-size: 20px;
+        color: #eb4f4e; }
+      .mobile-version .boxes-wrapper .boxes .content .middle {
+        color: #eb4f4e; }
+      .mobile-version .boxes-wrapper .boxes .content .middle2 {
+        color: gray; }
+    .mobile-version .boxes-wrapper .list {
+      margin-bottom: 100px; }
+      .mobile-version .boxes-wrapper .list .list-group {
+        max-width: 400px;
+        margin: 0 auto; }
+        .mobile-version .boxes-wrapper .list .list-group .settings-icon:first-child:before {
+          font-family: FontAwesome;
+          content: '\f013';
+          position: relative;
+          top: -28px;
+          left: 50px;
+          color: #eb4f4e;
+          font-size: 25px; }
+        .mobile-version .boxes-wrapper .list .list-group li {
+          background-color: #f0f0f0; }
+        .mobile-version .boxes-wrapper .list .list-group .price {
+          color: white;
+          background-color: #616161;
+          font-size: 50px; }
+          .mobile-version .boxes-wrapper .list .list-group .price i {
+            font-style: normal;
+            font-size: 20px;
+            background-color: white;
+            color: #616161;
+            padding: 2px 10px;
+            border-radius: 2px;
+            float: right;
+            margin-top: 20px;
+            cursor: pointer; }
+          .mobile-version .boxes-wrapper .list .list-group .price span {
+            font-size: 30px; }
+          .mobile-version .boxes-wrapper .list .list-group .price .fa-usd {
+            position: relative;
+            bottom: 10px; }
+        .mobile-version .boxes-wrapper .list .list-group .price-middle {
+          background-color: #eb4f4e; } }
+
+.tweets {
+  background-color: #eb4f4e; }
+  .tweets .tweets-title {
+    text-align: center; }
+    .tweets .tweets-title h2 {
+      color: white; }
+    .tweets .tweets-title p {
+      color: #232324; }
+    .tweets .tweets-title .fa-twitter {
+      color: white;
+      font-size: 30px; }
+  .tweets .tweet {
+    padding-top: 20px;
+    text-align: center; }
+    .tweets .tweet span {
+      color: #fbe5e5; }
+
+footer {
+  background-color: #232324; }
+  footer .copyright {
+    color: white; }
+    footer .copyright p {
+      padding: 10px;
+      float: right;
+      margin-bottom: 0; }
+    footer .copyright span {
+      color: #eb4f4e; }
+  footer .social {
+    text-align: center; }
+    footer .social i {
+      padding: 10px 5px;
+      text-align: center;
+      margin: 0; }
+    footer .social .fa {
+      font-size: 20px;
+      color: #eb4f4e; }
+
+@media only screen and (max-width: 992px) {
+  footer .copyright p {
+    float: none;
+    text-align: center; } }
+
+.contact {
+  background-image: url("../imgs/map.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  .contact .contact-us {
+    background-color: rgba(0, 0, 0, 0.8);
+    max-width: 617px;
+    margin: 50px auto;
+    text-align: center; }
+    .contact .contact-us h4 {
+      color: white;
+      padding: 10px;
+      font-size: 30px; }
+    .contact .contact-us p {
+      padding: 5px 0 10px 0;
+      margin-bottom: 0; }
+      .contact .contact-us p a {
+        font-size: 20px;
+        color: #eb4f4e; }
